@@ -1,4 +1,3 @@
-
 import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
@@ -7,6 +6,7 @@ from nltk.corpus import stopwords
 from nltk import word_tokenize
 from gensim.models import Word2Vec as w2v
 from sklearn.decomposition import PCA
+from make_dataset import *
 
 sw = stopwords.words('english')
 # Tokenize each job title
