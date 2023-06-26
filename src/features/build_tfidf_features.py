@@ -1,3 +1,4 @@
+from make_dataset import *
 
 tfidf_vec = TfidfVectorizer(use_idf=True,
                         smooth_idf=True,
