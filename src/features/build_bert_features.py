@@ -1,4 +1,3 @@
-
 # !pip install transformers
 from transformers import BertTokenizer, BertModel
 import torch
