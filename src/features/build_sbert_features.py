@@ -1,6 +1,6 @@
-
 # !pip install sentence-transformers
 from sentence_transformers import SentenceTransformer
+from make_dataset import *
 
 # Load the SBERT model
 sbert_model = SentenceTransformer('bert-base-nli-mean-tokens')
