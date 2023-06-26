@@ -2,6 +2,7 @@
 # !pip install transformers
 from transformers import BertTokenizer, BertModel
 import torch
+from make_dataset import *
 
 def get_bert_embeddings(text):
     # Tokenize the text
