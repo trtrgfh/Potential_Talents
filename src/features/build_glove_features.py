@@ -1,3 +1,4 @@
+from make_dataset import *
 
 glove_embeddings = {}
 # Download embeddings from https://nlp.stanford.edu/projects/glove/
